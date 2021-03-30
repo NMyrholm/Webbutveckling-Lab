@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "courseNumber": 1001,
+    "title": "Introduktion till JavaScript",
+    "description": "En introduktionskurs till programmeringsspråket JavaScript",
+    "length": 50,
+    "category": "Programmering"
+  },
+  {
+    "id": 2,
+    "courseNumber": 1002,
+    "title": "Introduktion till C#",
+    "description": "En introduktionskurs till programmeringsspråket C#",
+    "length": 60,
+    "category": "Programmering"
+  },
+  {
+    "id": 3,
+    "courseNumber": 1003,
+    "title": "Introduktion till HTML",
+    "description": "Lär dig att skapa dina första hemsida med språket HTML!",
+    "length": 10,
+    "category": "Programmering"
+  },
+  {
+    "id": 4,
+    "courseNumber": 1004,
+    "title": "Introduktion till CSS",
+    "description": "En introduktionskurs till språket CSS",
+    "length": 15,
+    "category": "Programmering"
+  },
+  {
+    "id": 5,
+    "courseNumber": 1005,
+    "title": "Avancerad CSS",
+    "description": "En djupdykning i språket CSS",
+    "length": 20,
+    "category": "Programmering"
+  },
+  {
+    "id": 6,
+    "courseNumber": 1006,
+    "title": "Scrum Master",
+    "description": "Intensivutbildning till Scrum master ",
+    "length": 10,
+    "category": "Projektledning"
+  }
+  
+]

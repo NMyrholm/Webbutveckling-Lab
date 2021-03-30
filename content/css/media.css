@@ -1,0 +1,282 @@
+@media (max-width: 480px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  #navigation{
+    flex-direction: row;
+    height: 120px;
+  }
+
+  #navigation .container {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #navigation ul li a{
+    padding: 1rem;
+  }
+
+  #navigation .container .logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .info img {
+    max-width: 100%;
+  }
+
+  #mainPage {
+    margin: 0;
+  }
+
+  /* Index site */
+
+  .headerDisplay {
+    display: flex;
+    height: 400px;
+  }
+
+  .headerDisplay h1 {
+    font-size: 2rem;
+    text-align: center;
+    background: rgba(55, 58, 61, 0.9);
+    padding: 2rem;
+    margin-top: 1rem;
+    max-height: 200px;
+  }
+
+  /* .about .info img {
+    width: 300px;
+    height: 100px;
+  } */
+  .about {
+    flex-direction: column;
+  }
+  .about img {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 1rem;
+  }
+
+  .info-text {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* Courses site */
+
+  .listCourses {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2vh;
+  }
+
+  .course {
+    padding: 1rem;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  #navigation{
+    flex-direction: row;
+    height: 120px;
+  }
+
+  #navigation ul li a{
+    padding: 1rem;
+  }
+
+  #navigation .container {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #navigation .container .logo {
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+    max-width: 400px;
+  }
+
+  #mainPage {
+    margin: 0;
+  }
+
+  /* Index site */
+
+  .headerDisplay {
+    display: flex;
+    height: 400px;
+  }
+
+  .headerDisplay h1 {
+    font-size: 2rem;
+    text-align: center;
+    background: rgba(55, 58, 61, 0.9);
+    padding: 2rem;
+    margin-top: 1rem;
+    max-height: 200px;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+
+
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 1rem;
+  }
+
+  .info img {
+    max-width: 100%;
+  }
+
+  .info-text {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  /* Courses site */
+
+  .listCourses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2vh;
+  }
+
+  .course {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 761px) and (max-width: 1250px) {
+  #navigation{
+    flex-direction: row;
+    height: 120px;
+  }
+
+  #navigation .container {
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #navigation ul li a{
+    padding: 1rem;
+  }
+
+  #navigation .container .logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .info img {
+    max-width: auto;
+  }
+
+  #mainPage {
+    margin: 0;
+  }
+
+  /* Index site */
+
+  .headerDisplay {
+    display: flex;
+    height: 400px;
+  }
+
+  .headerDisplay h1 {
+    font-size: 2rem;
+    text-align: center;
+    background: rgba(55, 58, 61, 0.9);
+    padding: 2rem;
+    margin-top: 1rem;
+    max-height: 200px;
+  }
+
+  /* .about .info img {
+    width: 300px;
+    height: 100px;
+  } */
+  .about {
+    flex-direction: column;
+  }
+  .about img {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 0 0 1rem;
+  }
+
+  .info-text {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .info img {
+    max-width: 80%;
+  }
+
+  /* Courses site */
+
+  .listCourses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2vh;
+  }
+
+  .course {
+    padding: 1rem;
+  }
+
+
+}
