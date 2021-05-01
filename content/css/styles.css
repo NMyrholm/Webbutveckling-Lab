@@ -5,6 +5,7 @@
   --secondary-color: #77b6db;
   /* --third-color: #eeaca3; */
   --third-color: #91cce7;
+  --btn-color: rgb(10, 83, 105);
 }
 
 
@@ -149,4 +150,12 @@ main {
 
 #mainPage {
   /* margin: 0 20vh; */
+}
+
+.btn {
+    background-color: var(--btn-color);
+    padding: 0.5rem;
+    color: rgb(241, 233, 233);
+    font-weight: 600;
+    padding: 0.4rem;
 }

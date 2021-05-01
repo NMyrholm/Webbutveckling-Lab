@@ -6,10 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/content/css/styles.css">
   <link rel="stylesheet" href="/content/css/courses.css">
   <link rel="stylesheet" href="/content/css/media.css">
+  <script src="https://kit.fontawesome.com/734a53a685.js" crossorigin="anonymous"></script>
   <title>WestCoast Education</title>
 </head>
 
@@ -20,20 +21,57 @@
       <ul>
         <li><a href="/app/public/index.html">Hem</a></li>
         <li><a class="active" href="/app/public/courses.html">Kurser</a></li>
+        <li><a href="#cart" class="cart"><i class="fas fa-shopping-cart"></i> Kundvagn</a></li>
       </ul>
     </div>
   </nav>
-  <header>        
+  <header>
     <div class="main">
       <h1>Våra kurser!</h1>
     </div>
-  </header> 
-  <main>  
-    <section class="listCourses"></section>
+  </header>
+  <section class="listCourses"></section>
+  <button class="btn" id="addNewCourse">Lägg till kurs</button>
+
+  <section class="cart-container content-section">
+    <h2 class="cart-header" id="cart">Kundvagn</h2>
+    <!-- <div class="cart-row"></div> -->
+    <table class= "cart-row">
+    </table>
+    <button class="btn btn-primary btn-purchase" type="button">Köp</button>
+  </section>
+
+  <section>
+    <div class="modal hidden">
+      <button class="close-modal">&times</button>
+      <section id="addCourse-box" class="hidden">
+        <form onsubmit="return false">
+          <input id="courseNumber" type="text" class="form-control" placeholder="Kursnummer">
+          <input id="courseTitle" type="text" class="form-control" placeholder="Titel">
+          <input id="courseDescription" type="text" class="form-control" placeholder="Beskrivning">
+          <input id="courseLength" type="text" class="form-control" placeholder="Längd">
+          <div class="buttons">
+            <button class="btn" id="save">Lägg till</button>
+            <button class="btn btn-secondary" id="cancel">Avbryt</button>
+          </div>
+        </form>
+      </section>
+    </div>
+  </section>
+
+  <section>
+    <div class="buy-modal hidden">
+        <div class="buttons">
+          <p>Grattis till ditt köp!</p>
+          <button class="btn btn-secondary" id="cancel">Tack!</button>
+        </div>
+    </div>
+  </section>
   </main>
   <footer class="footer">
     <p>Copyright &copy; 2021, All Rights Reserved</p>
   </footer>
+  <div class="overlay hidden"></div>
   <script src="/scripts/app.js"></script>
 </body>
 
