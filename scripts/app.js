@@ -87,14 +87,6 @@ function createBuyButton(course){
 
 const addToCart = course => {
   cart.push(course);
-  // cartSelection.insertAdjacentHTML(
-  //   'beforeend',
-  //   `<div class="cart" id="course${course.id}">
-  //   <h4>${course.title}</h4>
-  //   <button id="buttonRemoveFromCart${course.id}" class="cart-btn">&times</button>
-  //   </div>`
-  // );
-
   cartSelection.insertAdjacentHTML(
     'beforeend',
     `
